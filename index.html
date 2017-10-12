@@ -32,9 +32,10 @@
     <meta itemprop="description" content="Around campus (offices, hallways, outdoor bins, dining areas, etc.), recycling is sorted into the following categories. Click to read more detail about each. " />
     <link rel="shortcut icon" href="http://transportation.oregonstate.edu/sites/all/themes/doug_fir/favicon.ico" type="image/ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Delphinus -->
     <title>
         Interactive Map | Oregon State University </title>
-
+	<script src="js/index.js"></script>
     <!-- CSS -->
     <link type="text/css" rel="stylesheet" href="http://fa.oregonstate.edu/sites/fa.oregonstate.edu/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
     <link type="text/css" rel="stylesheet" href="http://fa.oregonstate.edu/sites/fa.oregonstate.edu/files/css/css_6mgiPxAxfLVvNZYXL4GjW0gYmrZ9gWMIdRXfFsk0PQw.css" media="all" />
@@ -3553,6 +3554,10 @@ background-color: orange;
                         <!-- Delphinus code start here-->
                         <h3>OSU Campus Recycling Maps</h3>
                         <p>Recycling is sorted into the following categories. Click to track where each goes and what it does. </p>
+						<img src="button-recycle-guide-containers.png" width="150" height="150" onclick="load_containers()">
+						<img src="button-recycle-guide-paper.png" width="150" height="150" onclick="load_paper()">
+						<img src="button-recycle-guide-cardboard.png" width="150" height="150" onclick="load_cardboard()">
+						<img src="button-recycle-guide-special.png" width="150" height="150" onclick="load_special()">
                         <p><iframe id="recycling_map" frameborder="0" scrolling="no" src="http://web.engr.oregonstate.edu/~leame/Interactive_Map/default_map.html" width="100%" height="500"></iframe></p>
 
                         <!-- Delphinus code end here -->
